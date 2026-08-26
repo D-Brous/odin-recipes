@@ -1,0 +1,1 @@
+This is a basic recipe website with a few recipe pages made to practice HTML as part of The Odin Project. The goal of this project is mainly to teach me how to write a basic website in purely HTML.
