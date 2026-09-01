@@ -1,0 +1,86 @@
+:root {
+    --TITLE-BAR-COLOR: rgb(135, 179, 255);
+    --BACKGROUND-COLOR: rgb(189, 213, 255);
+    --RECIPE-CARD-BORDER-COLOR: rgb(112, 30, 184);
+    --RECIPE-CARD-BACKGROUND-COLOR: rgb(196, 130, 250);
+    --NOTES-CARD-COLOR: rgb(208, 165, 244);
+}
+
+body {
+    margin: 0;
+    background-color: var(--BACKGROUND-COLOR);
+}
+
+.title-bar {
+    background-color: var(--TITLE-BAR-COLOR);
+    padding: 10px;
+}
+
+.title,
+.home {
+    font-size: 60px;
+    margin: 0;
+    width: 48.5%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.home {
+    text-align: right;
+}
+
+.recipe-list {
+    font-size: 30px;
+}
+
+button {
+    font-size: 30px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.left-col,
+.right-col {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.left-col {
+    width: 47.5%;
+    margin: 1% 1% 1% 1%;
+}
+
+.right-col {
+    width: 49%;
+    margin: 1% 1% 1% 0;
+}
+
+img {
+    width: 49vw;
+    height: auto;
+}
+
+.description {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 1%;
+}
+
+.ingredients,
+.steps,
+.notes {
+    background-color: var(--RECIPE-CARD-BACKGROUND-COLOR);
+    border: 5px solid var(--RECIPE-CARD-BORDER-COLOR);
+    font-size: 20px;
+    padding: 10px;
+}
+
+.steps {
+    margin: -5px 0;
+}
+
+.notes {
+    background-color: var(--NOTES-CARD-COLOR);
+}
